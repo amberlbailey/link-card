@@ -6,3 +6,9 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 700;
+  color: #512200;
+}
