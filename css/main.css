@@ -9,21 +9,24 @@ html {
 
 h1 {
   font-family: 'Dosis', sans-serif;
-  font-size: 700;
+  font-size: 400;
   color: #512200
 }
 
 body {
   border-style: solid;
-  border-color: #785439;
+  border-color: #9a816d;
   border-radius: 8px;
   background-color: #dcd4cd;
   border-width: 3px;
+  padding: 1rem;
+  margin: 0 0 1rem;
 }
 
 p {
   line-height: 1.5rem;
   font-size: 1.125rem;
+  margin-top: 0;
 }
 
 .nav {
@@ -31,7 +34,8 @@ p {
   padding: 0;
   list-style-type: none;
   overflow: hidden;
-  font-size: 1.125rem;
+  font-size: 1rem;
+  line-height: .75;
 }
 
 .nav li {
@@ -52,4 +56,16 @@ ul {
   text-decoration: none;
   color: #512200;
   font-family: Georgia;
+}
+
+.btn {
+  border: 3px solid #333;
+  text-decoration: none;
+  padding: .4em .75em .5em;
+  color: white;
+  background-color: #785439;
+  border-color: #785439;
+  border-radius: 8px;
+  text-align: center;
+  float: left;
 }
