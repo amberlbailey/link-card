@@ -12,3 +12,10 @@ h1 {
   font-size: 700;
   color: #512200;
 }
+
+body {
+  border-style: solid;
+  border-color: #785439;
+  border-radius: 8px;
+  background-color: #dcd4cd;
+}
