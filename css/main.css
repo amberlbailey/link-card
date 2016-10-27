@@ -10,7 +10,7 @@ html {
 h1 {
   font-family: 'Dosis', sans-serif;
   font-size: 700;
-  color: #512200;
+  color: #512200
 }
 
 body {
@@ -18,4 +18,38 @@ body {
   border-color: #785439;
   border-radius: 8px;
   background-color: #dcd4cd;
+  border-width: 3px;
+}
+
+p {
+  line-height: 1.5rem;
+  font-size: 1.125rem;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+  font-size: 1.125rem;
+}
+
+.nav li {
+  display: inline-block;
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+.nav a {
+  display: block;
+  padding: .5em;
+  text-decoration: none;
+  color: #512200;
+  font-family: Georgia;
 }
