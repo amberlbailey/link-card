@@ -8,8 +8,8 @@ html {
 }
 
 h1 {
-  font-family: 'Dosis', sans-serif;
-  font-size: 400;
+  font-family: Dosis, sans-serif;
+  font-size: 1.5rem;
   color: #512200
 }
 
@@ -19,13 +19,14 @@ body {
   border-radius: 8px;
   background-color: #dcd4cd;
   border-width: 3px;
-  padding: 1rem;
-  margin: 0 0 1rem;
+  padding: 0;
+  margin: .5rem;
+
 }
 
 p {
-  line-height: 1.5rem;
-  font-size: 1.125rem;
+  line-height: 1.5;
+  font-size: 1.5;
   margin-top: 0;
 }
 
@@ -34,8 +35,11 @@ p {
   padding: 0;
   list-style-type: none;
   overflow: hidden;
-  font-size: 1rem;
+  font-size: .875rem;
   line-height: .75;
+  border-width: thin;
+  border-left: none;
+  border-right: none;
 }
 
 .nav li {
@@ -45,7 +49,7 @@ p {
   width: 50%;
 }
 
-ul {
+dl {
   padding-left: 0;
   margin: 0;
 }
@@ -62,10 +66,11 @@ ul {
   border: 3px solid #333;
   text-decoration: none;
   padding: .4em .75em .5em;
-  color: white;
   background-color: #785439;
   border-color: #785439;
-  border-radius: 8px;
+  border-radius: 3px;
   text-align: center;
   float: left;
+  width: 35%;
+  color: #fff;
 }
