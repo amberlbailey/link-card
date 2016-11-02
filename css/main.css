@@ -70,7 +70,17 @@ a {
   background-color: #785439;
 }
 
+.link-card:hover {
+  background-color: #cabdb2;
+}
+
+nav a:hover {
+  background-color: #512200;
+  border: 3px solid #512200;
+}
+
 .border {
   border: 2px solid #9a816d;
   border-right: none;
   border-left: none;
+}
