@@ -7,70 +7,38 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+.link-card h2 {
   font-family: Dosis, sans-serif;
   font-size: 1.5rem;
-  color: #512200
 }
 
-body {
-  border-style: solid;
-  border-color: #9a816d;
+.link-card {
+  border: 3px solid #9a816d;
   border-radius: 8px;
   background-color: #dcd4cd;
-  border-width: 3px;
   padding: 0;
-  margin: .5rem;
+  color: #512200;
+}
 
+dl {
+  font-style: italic;
+  overflow: hidden;
+  margin: 0;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 35%;
+}
+
+dd {
+  margin: 0;
+  float: left;
+  width: 35%;
 }
 
 p {
   line-height: 1.5;
   font-size: 1.5;
-  margin-top: 0;
-}
-
-dl {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  overflow: hidden;
-  font-size: .875rem;
-  line-height: .75;
-  border-width: thin;
-  border-left: none;
-  border-right: none;
-}
-
-dl li {
-  display: inline-block;
-  text-align: left;
-  float: left;
-  width: 50%;
-}
-
-dl {
-  padding-left: 0;
-  margin: 0;
-}
-
-.nav a {
-  display: block;
-  padding: .5em;
-  text-decoration: none;
-  color: #512200;
-  font-family: Georgia;
-}
-
-.btn {
-  border: 3px solid #333;
-  text-decoration: none;
-  padding: .4em .75em .5em;
-  background-color: #785439;
-  border-color: #785439;
-  border-radius: 3px;
-  text-align: center;
-  float: left;
-  width: 35%;
-  color: #fff;
 }
