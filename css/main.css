@@ -9,9 +9,10 @@ html {
 
 .link-card h2 {
   font-family: Dosis, sans-serif;
-  font-size: 1.5rem;
-  margin-top: auto;
+  font-size: 1.4rem;
+  margin-top: 0;
   margin-bottom: 0;
+  padding-top: 10px;
 }
 
 .link-card {
@@ -21,53 +22,58 @@ html {
   padding-left: 10px;
   padding-right: 10px;
   color: #512200;
+  display: block;
 }
 
 dl {
   overflow: hidden;
   margin: 0;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   line-height: 1.5;
+  font-family: Georgia, serif;
+  border: 2px solid #9a816d;
+  border-right: none;
+  border-left: none;
+  font-size: .875rem;
 }
 
 dt {
   float: left;
   clear: left;
-  width: 35%;
+  width: 45%;
 }
 
 dd {
   margin: 0;
   float: left;
-  width: 35%;
+  width: 45%;
   font-style: italic;
 }
 
 p {
   line-height: 1.5;
   font-family: Georgia, serif;
-  margin: 0.5;
-  font-size: 1.5;
-  margin-bottom: 0;
+}
+
+.btn span {
+  font-family: Dosis, sans-serif;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+  border: 3px solid #785439;
+  background-color: #785439;
+  font-weight: bold;
 }
 
 .btn {
+  display: block;
   text-align: center;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  padding: .4em .75em .5em;
-}
-
-a {
-  font-family: Dosis, sans-serif;
-  text-decoration: none;
-  display: inline-block;
-  color: #fff;
-  border-radius: 8px;
-  padding: .43m .75em .5em;
-  border: 3px solid #785439;
-  background-color: #785439;
 }
 
 .link-card:hover {
@@ -77,10 +83,4 @@ a {
 nav a:hover {
   background-color: #512200;
   border: 3px solid #512200;
-}
-
-.border {
-  border: 2px solid #9a816d;
-  border-right: none;
-  border-left: none;
 }
